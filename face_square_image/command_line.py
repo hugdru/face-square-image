@@ -45,8 +45,7 @@ def parse():
         '--inplace',
         dest='inplace',
         action='store_true',
-        help='The path to the html file that represents the index of the book'
-        'in relation to the main page url')
+        help='Overwrite the source files with the corresponding result')
 
     output_group.add_argument(
         '-o',
