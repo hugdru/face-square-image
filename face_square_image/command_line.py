@@ -48,8 +48,8 @@ def parse():
         help='Overwrite the source files with the corresponding result')
 
     output_group.add_argument(
-        '-o',
-        '--output',
+        '-d',
+        '--dir',
         metavar='output_dir',
         type=str,
         dest='output_dir',
