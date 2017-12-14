@@ -60,7 +60,7 @@ def parse():
         '--padding',
         default=50,
         metavar='padding_percentage',
-        type=str,
+        type=int,
         dest='padding',
         help='The padding for the cropped square face image')
 
